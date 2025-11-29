@@ -1,0 +1,145 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\altaf\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\altaf\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 1.8.0_241)
+[debug]       Load.loadUnit: plugins took 175.5099ms
+[debug]       Load.loadUnit: defsScala took 0.5137ms
+[debug] [Loading] Scanning directory C:\Users\altaf\.sbt\1.0\plugins
+[debug]         Load.loadUnit: mkEval took 11.434ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\altaf\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 32.8874 ms
+[info] loading settings for project global-plugins from idea.sbt ...
+[debug]           Load.resolveProject(global-plugins) took 104.0239ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\altaf\.sbt\1.0\plugins, plugins: List(<none>))) took 185.7191ms
+[debug] [Loading] Done in C:\Users\altaf\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 558.5221ms
+[debug]       Load.loadUnit: cleanEvalClasses took 13.7277ms
+[debug]     Load.loadUnit(file:/C:/Users/altaf/.sbt/1.0/plugins/, ...) took 760.1764ms
+[debug]   Load.apply: load took 1042.4363ms
+[debug]   Load.apply: resolveProjects took 9.5985ms
+[debug]   Load.apply: finalTransforms took 83.3813ms
+[debug]   Load.apply: config.delegates took 13.5385ms
+[debug]   Load.apply: Def.make(settings)... took 570.3847ms
+[debug]   Load.apply: structureIndex took 136.3777ms
+[debug]   Load.apply: mkStreams took 2.9798ms
+[info] loading global plugins from C:\Users\altaf\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3670.7984ms
+[debug]           Load.loadUnit: plugins took 50.7367ms
+[debug]           Load.loadUnit: defsScala took 0.0049ms
+[debug] [Loading] Scanning directory C:\Paidy_Project\paidy\forex-mtl\project
+[debug]             Load.loadUnit: mkEval took 0.7383ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Paidy_Project\paidy\forex-mtl\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.0213 ms
+[info] loading settings for project forex-mtl-build from plugins.sbt,idea.sbt ...
+[debug]               Load.resolveProject(forex-mtl-build) took 3.6655ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id forex-mtl-build, base: C:\Paidy_Project\paidy\forex-mtl\project, plugins: List(<none>))) took 8.7031ms
+[debug] [Loading] Done in C:\Paidy_Project\paidy\forex-mtl\project, returning: (forex-mtl-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3192.6916ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.9539ms
+[debug]         Load.loadUnit(file:/C:/Paidy_Project/paidy/forex-mtl/project/, ...) took 3250.2415ms
+[debug]       Load.apply: load took 3253.0626ms
+[debug]       Load.apply: resolveProjects took 0.3916ms
+[debug]       Load.apply: finalTransforms took 12.5426ms
+[debug]       Load.apply: config.delegates took 0.6205ms
+[debug]       Load.apply: Def.make(settings)... took 124.7406ms
+[debug]       Load.apply: structureIndex took 39.0322ms
+[debug]       Load.apply: mkStreams took 0.0037ms
+[info] loading project definition from C:\Paidy_Project\paidy\forex-mtl\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7811.5383ms
+[debug]     Load.loadUnit: defsScala took 0.0061ms
+[debug] [Loading] Scanning directory C:\Paidy_Project\paidy\forex-mtl
+[debug]       Load.loadUnit: mkEval took 0.896ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Paidy_Project\paidy\forex-mtl, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(com.lucidchart.scalafmt.coursier.ScalafmtCoursierPlugin),Set(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin)))
+[debug] Clause(Atom(com.timushev.sbt.updates.UpdatesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(spray.revolver.RevolverPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.GenerateAllManagedSourcesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(com.lucidchart.sbt.scalafmt.ScalafmtPlugin),Set(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin)))
+[debug] Clause(Atom(com.lucidchart.sbt.scalafmt.ScalafmtSbtPlugin),Set(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin),Set(Atom(com.lucidchart.scalafmt.coursier.ScalafmtCoursierPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.timushev.sbt.updates.UpdatesPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(spray.revolver.RevolverPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.GenerateAllManagedSourcesPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.IvyPlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin)))
+[debug] Clause(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin),Set(Atom(com.lucidchart.sbt.scalafmt.ScalafmtPlugin)))
+[debug] Clause(Atom(com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin),Set(Atom(com.lucidchart.sbt.scalafmt.ScalafmtSbtPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.lucidchart.sbt.scalafmt.ScalafmtCorePlugin,com.timushev.sbt.updates.UpdatesPlugin,org.jetbrains.sbt.GenerateAllManagedSourcesPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,spray.revolver.RevolverPlugin,sbt.plugins.MiniDependencyTreePlugin,com.lucidchart.sbt.scalafmt.ScalafmtSbtPlugin,com.lucidchart.sbt.scalafmt.ScalafmtPlugin,com.lucidchart.scalafmt.coursier.ScalafmtCoursierPlugin)
+[debug] Plugins.deducer#function took 6.6335 ms
+[info] loading settings for project forex-mtl from build.sbt ...
+[debug]         Load.resolveProject(forex-mtl) took 82.326ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id forex-mtl, base: C:\Paidy_Project\paidy\forex-mtl, plugins: List(<none>))) took 91.3092ms
+[debug] [Loading] Done in C:\Paidy_Project\paidy\forex-mtl, returning: (forex-mtl)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3898.649ms
+[debug]     Load.loadUnit: cleanEvalClasses took 41.1066ms
+[debug]   Load.loadUnit(file:/C:/Paidy_Project/paidy/forex-mtl/, ...) took 11752.451ms
+[debug] Load.apply: load took 11756.028ms
+[debug] Load.apply: resolveProjects took 0.246ms
+[debug] Load.apply: finalTransforms took 51.1084ms
+[debug] Load.apply: config.delegates took 0.6062ms
+[debug] Load.apply: Def.make(settings)... took 715.5267ms
+[debug] Load.apply: structureIndex took 271.1254ms
+[debug] Load.apply: mkStreams took 0.0057ms
+[info] set current project to forex (in build file:/C:/Paidy_Project/paidy/forex-mtl/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(idea-shell, None, None)

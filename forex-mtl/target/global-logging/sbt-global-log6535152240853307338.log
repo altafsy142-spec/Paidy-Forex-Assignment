@@ -1,0 +1,7 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 29 Scala sources to C:\Paidy_Project\paidy\forex-mtl\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 11 s, completed 28 Nov, 2025 11:55:27 PM
+[debug] > Exec(idea-shell, None, None)
